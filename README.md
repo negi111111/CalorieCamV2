@@ -1,4 +1,5 @@
 # CalorieCamV2
+This application measures real area of food using AR technology mounted on iphone and applied it to estimate calorie content.
 
 <img src="https://github.com/negi111111/CalorieCamV2/blob/master/data/dl.gif"/>
 
