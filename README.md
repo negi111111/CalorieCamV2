@@ -1,5 +1,7 @@
 # CalorieCamV2
 
+<img src="https://github.com/negi111111/CalorieCamV2/blob/master/data/dl.gif"/>
+
 ## Demo
 Youtube link is [here](https://www.youtube.com/watch?v=4fPdq_9fAYw)
 
