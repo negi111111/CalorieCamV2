@@ -29,3 +29,9 @@ If you use this app in a publication, a link to or citation of this repository w
   howpublished = {\url{https://github.com/negi111111/CalorieCamV2}},
 }
 ```
+## Thanks
+- [Ruler](https://github.com/TBXark/Ruler)
+- [Food101 for CoreML](https://github.com/ph1ps/Food101-CoreML)
+
+## License
+MIT. Copyright (c) 2018 Ryosuke Tanno
