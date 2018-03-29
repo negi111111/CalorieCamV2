@@ -1,0 +1,18 @@
+PODS:
+  - OpenCV (3.3.1)
+  - R.swift (4.0.0):
+    - R.swift.Library (~> 4.0.0)
+  - R.swift.Library (4.0.0)
+
+DEPENDENCIES:
+  - OpenCV
+  - R.swift
+
+SPEC CHECKSUMS:
+  OpenCV: d81447860f038d60723084aa02ecc963f95c55fa
+  R.swift: d6a5ec2f55a8441dc0ed9f1f8b37d7d11ae85c66
+  R.swift.Library: c3af34921024333546e23b70e70d0b4e0cffca75
+
+PODFILE CHECKSUM: c065e88ecfd1cf6c8dbce116fa00957453fc636e
+
+COCOAPODS: 1.4.0

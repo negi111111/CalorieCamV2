@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LDN-du-CRT">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Setting View Controller-->
+        <scene sceneID="mI3-H3-uTS">
+            <objects>
+                <viewController storyboardIdentifier="SettingViewControllerID" id="LDN-du-CRT" customClass="SettingViewController" customModule="Ruler" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kIr-cv-k96">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O8b-Qu-tgC">
+                                <rect key="frame" x="16" y="44" width="343" height="80"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How to use ?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wOf-qk-SxP">
+                                        <rect key="frame" x="0.0" y="0.0" width="382" height="80"/>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="40"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BbP-y6-tf1">
+                                        <rect key="frame" x="287" y="21" width="38" height="38"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="38" id="FRo-YR-9Xw"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="38" id="Fz1-JG-poe"/>
+                                            <constraint firstAttribute="width" constant="38" id="hAp-5l-Mba"/>
+                                            <constraint firstAttribute="height" constant="38" id="rTS-ye-ZXi"/>
+                                        </constraints>
+                                        <state key="normal" title="close" image="iconmonstr-undo-6-240.png"/>
+                                        <connections>
+                                            <action selector="closeButtonDidClick:" destination="LDN-du-CRT" eventType="touchUpInside" id="EG7-xr-WuG"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="GFZ-Lj-M65"/>
+                                    <constraint firstAttribute="trailing" secondItem="BbP-y6-tf1" secondAttribute="trailing" constant="18" id="MY8-8Y-sop"/>
+                                    <constraint firstAttribute="trailing" secondItem="wOf-qk-SxP" secondAttribute="trailing" constant="-39" id="Nu3-mR-vFx"/>
+                                    <constraint firstItem="wOf-qk-SxP" firstAttribute="leading" secondItem="O8b-Qu-tgC" secondAttribute="leading" id="Wi3-6R-kWc"/>
+                                    <constraint firstItem="wOf-qk-SxP" firstAttribute="bottom" secondItem="BbP-y6-tf1" secondAttribute="bottom" constant="21" id="fGB-VR-knq"/>
+                                    <constraint firstItem="wOf-qk-SxP" firstAttribute="top" secondItem="BbP-y6-tf1" secondAttribute="top" constant="-21" id="g6d-vX-eoj"/>
+                                    <constraint firstItem="BbP-y6-tf1" firstAttribute="centerY" secondItem="O8b-Qu-tgC" secondAttribute="centerY" id="oii-lR-osR"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="axU-AO-Ofe">
+                                <rect key="frame" x="0.0" y="122" width="375" height="668"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="hw4-oE-Lua"/>
+                                    <constraint firstAttribute="height" constant="668" id="ivp-Kj-fPr"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="O8b-Qu-tgC" firstAttribute="top" secondItem="gNv-nF-eeV" secondAttribute="top" id="4YA-dq-phE"/>
+                            <constraint firstItem="O8b-Qu-tgC" firstAttribute="leading" secondItem="gNv-nF-eeV" secondAttribute="leading" constant="16" id="Iv7-QZ-S9U"/>
+                            <constraint firstItem="axU-AO-Ofe" firstAttribute="top" secondItem="gNv-nF-eeV" secondAttribute="top" constant="78" id="KeG-D6-9HO"/>
+                            <constraint firstItem="gNv-nF-eeV" firstAttribute="trailing" secondItem="O8b-Qu-tgC" secondAttribute="trailing" constant="16" id="SNl-7o-Lpp"/>
+                            <constraint firstItem="axU-AO-Ofe" firstAttribute="centerX" secondItem="O8b-Qu-tgC" secondAttribute="centerX" id="jYz-Mw-hOS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="gNv-nF-eeV"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RMH-Jn-SG4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="8LE-FX-Wiu">
+                    <connections>
+                        <action selector="playAppDidTap:" destination="LDN-du-CRT" id="Ean-il-1yO"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="540" y="-190.64039408866995"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="iconmonstr-undo-6-240.png" width="240" height="240"/>
+    </resources>
+</document>
