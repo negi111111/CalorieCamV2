@@ -1,0 +1,6 @@
+# bundler
+.bundle
+vendor/bundle
+
+# cocoapods
+Pods
