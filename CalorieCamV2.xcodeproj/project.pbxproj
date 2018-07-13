@@ -37,7 +37,6 @@
 		CADED8B72040BA38004EF42D /* Food101.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = CADED8B62040BA38004EF42D /* Food101.mlmodel */; };
 		CAF891321FBB9731009FC5A8 /* iconmonstr-x-mark-5-120.png in Resources */ = {isa = PBXBuildFile; fileRef = CAF891311FBB9730009FC5A8 /* iconmonstr-x-mark-5-120.png */; };
 		CAF891341FBB97BA009FC5A8 /* iconmonstr-undo-6-240.png in Resources */ = {isa = PBXBuildFile; fileRef = CAF891331FBB97B9009FC5A8 /* iconmonstr-undo-6-240.png */; };
-		FB417B86065A48520330817B /* Pods_Ruler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F224D5CD6B11A57FC3657F6C /* Pods_Ruler.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,7 +80,6 @@
 		CAF891311FBB9730009FC5A8 /* iconmonstr-x-mark-5-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconmonstr-x-mark-5-120.png"; sourceTree = "<group>"; };
 		CAF891331FBB97B9009FC5A8 /* iconmonstr-undo-6-240.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconmonstr-undo-6-240.png"; sourceTree = "<group>"; };
 		D855BAFDB63491141B1F7E8D /* Pods-CalorieCamV2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CalorieCamV2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CalorieCamV2/Pods-CalorieCamV2.debug.xcconfig"; sourceTree = "<group>"; };
-		F224D5CD6B11A57FC3657F6C /* Pods_Ruler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ruler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F970FA52E2EC5E9003A5A8FA /* Pods_CalorieCamV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CalorieCamV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -92,7 +90,6 @@
 			files = (
 				6A68615F1F6FBAF800882BCE /* SceneKit.framework in Frameworks */,
 				6A68615D1F6FBAF000882BCE /* ARKit.framework in Frameworks */,
-				FB417B86065A48520330817B /* Pods_Ruler.framework in Frameworks */,
 				8953F017B9B351393B121D5E /* Pods_CalorieCamV2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +136,6 @@
 				6A68615E1F6FBAF800882BCE /* SceneKit.framework */,
 				6A68615C1F6FBAF000882BCE /* ARKit.framework */,
 				6A6861331F6F89E400882BCE /* OpenGLES.framework */,
-				F224D5CD6B11A57FC3657F6C /* Pods_Ruler.framework */,
 				F970FA52E2EC5E9003A5A8FA /* Pods_CalorieCamV2.framework */,
 			);
 			name = Frameworks;
