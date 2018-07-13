@@ -279,7 +279,6 @@
 				6A6861181F6F89D600882BCE /* Frameworks */,
 				6A6861191F6F89D600882BCE /* Resources */,
 				0636F130D6798F0194D8F4A4 /* [CP] Embed Pods Frameworks */,
-				999369B764C5FFCCCA6E714D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -394,21 +393,6 @@
 			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "\"$PODS_ROOT/R.swift/rswift\" \"$SRCROOT/Ruler/Source\"";
-		};
-		999369B764C5FFCCCA6E714D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CalorieCamV2/Pods-CalorieCamV2-resources.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -581,7 +565,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CXM7X6GXAP;
+				DEVELOPMENT_TEAM = 5UBLN857DL;
 				INFOPLIST_FILE = "$(SRCROOT)/CalorieCamV2/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -602,7 +586,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CXM7X6GXAP;
+				DEVELOPMENT_TEAM = 5UBLN857DL;
 				INFOPLIST_FILE = "$(SRCROOT)/CalorieCamV2/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
